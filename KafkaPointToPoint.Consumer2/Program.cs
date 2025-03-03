@@ -1,10 +1,10 @@
 ﻿using Confluent.Kafka;
 
-namespace KafkaPointToPoint.Consumer
+namespace KafkaPointToPoint.Consumer2
 {
-    public class Program
+    internal class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
             var config = new ConsumerConfig
             {
@@ -16,7 +16,7 @@ namespace KafkaPointToPoint.Consumer
             using var consumer = new ConsumerBuilder<Ignore, string>(config).Build();
             consumer.Subscribe("test-topic");
 
-            Console.WriteLine("Consumer 1 started...");
+            Console.WriteLine("Consumer 2 started...");
             while (true)
             {
                 var consumeResult = consumer.Consume(CancellationToken.None);

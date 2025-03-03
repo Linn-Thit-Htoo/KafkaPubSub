@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		docker-compose.yml = docker-compose.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaPointToPoint.Consumer2", "KafkaPointToPoint.Consumer2\KafkaPointToPoint.Consumer2.csproj", "{97441F5C-6D97-4367-945B-1F2C92085963}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{562D2ED0-CD14-48DF-812E-95AA5F4843B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{562D2ED0-CD14-48DF-812E-95AA5F4843B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{562D2ED0-CD14-48DF-812E-95AA5F4843B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97441F5C-6D97-4367-945B-1F2C92085963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97441F5C-6D97-4367-945B-1F2C92085963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97441F5C-6D97-4367-945B-1F2C92085963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97441F5C-6D97-4367-945B-1F2C92085963}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
